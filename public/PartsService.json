@@ -1,0 +1,74 @@
+[
+  {
+    "PartNumber": "1111-Door",
+    "Description": "Dodge Journey left front door",
+    "alternateParts": [
+      {
+        "PartNumber": "1112-Door",
+        "Description": "Toyota Highlander left front door"
+      },
+      {
+        "PartNumber": "1114-Door",
+        "Description": "Kia Sorento left front door"
+      }
+    ]
+  },
+  {
+    "PartNumber": "1112-Door",
+    "Description": "Toyota Highlander left front door",
+    "alternateParts": [
+      {
+        "PartNumber": "1111-Door",
+        "Description": "Dodge Journey left front door"
+      },
+      {
+        "PartNumber": "1114-Door",
+        "Description": "Kia Sorento left front door"
+      }
+    ]
+  },
+  {
+    "PartNumber": "1113-Door",
+    "Description": "Subaru Legacy left front door",
+    "alternateParts": []
+  },
+  {
+    "PartNumber": "1114-Door",
+    "Description": "Kia Sorento left front door",
+    "alternateParts": [
+      {
+        "PartNumber": "1111-Door",
+        "Description": "Dodge Journey left front door"
+      },
+      {
+        "PartNumber": "1112-Door",
+        "Description": "Toyota Highlander left front door"
+      }
+    ]
+  },
+  {
+    "PartNumber": "2222-taillight_left",
+    "Description": "Dodge Journey left tail light",
+    "alternateParts": [
+      {
+        "PartNumber": "2224-taillight_left",
+        "Description": "Kia Sorento left tail light"
+      }
+    ]
+  },
+  {
+    "PartNumber": "2223-taillight_left",
+    "Description": "Subaru Legacy left tail light",
+    "alternateParts": []
+  },
+  {
+    "PartNumber": "2224-taillight_left",
+    "Description": "Kia Sorento left tail light",
+    "alternateParts": [
+      {
+        "PartNumber": "2222-taillight_left",
+        "Description": "Dodge Journey left tail light"
+      }
+    ]
+  }
+]

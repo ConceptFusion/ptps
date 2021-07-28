@@ -1,9 +1,12 @@
-import React from 'react';
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import { isValidPartNumber } from './App';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+test.each([
+  ['111-abcd', false],
+  ['a111-abcd', false],
+  ['1111abcd', false],
+  ['111 1a bcd', false],
+  ['1111-123abcd', true],
+  ['1111-1A2abc3', true],
+])('.isValidPartNumber(%s) should validate %s', (partNumber, expected) => {
+  expect(isValidPartNumber(partNumber)).toBe(expected);
 });
