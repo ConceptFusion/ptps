@@ -29,9 +29,7 @@ export const PartsServiceContext = createContext<IPartsService | undefined>(
 export const usePartsService = () => {
   const partsService = useContext(PartsServiceContext);
   if (!partsService) {
-    throw new Error(
-      'usePartsService must be used withing PartsServiceProvider'
-    );
+    throw new Error('usePartsService must be used within PartsServiceProvider');
   }
 
   return partsService;
@@ -48,7 +46,6 @@ export const isExcludedPart = (
   const partExclusions = exclusions.filter(
     (part) => part.PartNumber.toLowerCase() === partNumber.toLowerCase()
   );
-
   return partExclusions.length !== 0;
 };
 

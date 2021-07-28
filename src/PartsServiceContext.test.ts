@@ -1,4 +1,4 @@
-import { isValidPartNumber } from './App';
+import { isValidPartNumber } from './PartsServiceContext';
 
 test.each([
   ['111-abcd', false],
