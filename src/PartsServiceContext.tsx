@@ -48,11 +48,8 @@ export const isExcludedPart = (
   const partExclusions = exclusions.filter(
     (part) => part.PartNumber.toLowerCase() === partNumber.toLowerCase()
   );
-  if (partExclusions.length === 0) {
-    return false;
-  } else {
-    return true;
-  }
+
+  return partExclusions.length !== 0;
 };
 
 export const PartsServiceProvider: FC = ({ children }) => {
