@@ -2,11 +2,11 @@
 
 ## Validate Part Number
 
-Part numbers are validated against as the user types, with the lookup button disabled until the format is correct. An error is displayed only if the user blurs out of the field. The isValidPartNumber method is unit tested.
+Part numbers are validated as the user types, with the lookup button disabled until the format is correct. An error is displayed only if the user blurs out of the field and the error is only removed once the format is corrected. The isValidPartNumber method is unit tested.
 
 ## Check Exclusion List
 
-On lookup the validated part number is checked against the exclusion list and if found the user receives a toast notification informing them of the exclusion.
+On lookup the validated part number is checked against the exclusion list and if matched the user receives a toast notification informing them of the exclusion and no lookup occurs.
 
 ## Lookup Compatible Parts
 
