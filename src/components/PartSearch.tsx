@@ -100,7 +100,7 @@ const PartSearch: FC = () => {
         )}
         {noResult && (
           <p>
-            No parts found matching <strong>${partNumber}</strong>
+            No parts found matching <strong>{partNumber}</strong>
           </p>
         )}
       </ResultsCard>
